@@ -4,36 +4,13 @@ Welcome to my 100 Days of Python Projects repository! This repository showcases 
 
 ## Project Directory
 
-- **[Day 1: Project Name](Day01_Project_Name/)** - Brief description of the project.
-- **[Day 2: Project Name](Day02_Project_Name/)** - Brief description of the project.
-- ...
-- **[Day 100: Project Name](Day100_Project_Name/)** - Brief description of the final project.
+- **[Day 7: Word Guessing Game](Day01_Word_Guessing_Game/)** - Implemented a word guessing game where the player has to guess a word letter by letter. The player has 6 lives, and for each incorrect guess, a part of a hangman is drawn. If the player guesses the word within 6 attempts, they win.
+- **[Day 8: Caesar Cipher](Day02_Caesar_Cipher/)** - Developed a Caesar Cipher program that encrypts and decrypts messages based on the shift provided by the user. The program takes a text input and shifts the letters in the alphabet based on the given shift value, providing an encoded or decoded message.
+- **[Day 9: Auction Bidding System](Day03_Auction_Bidding_System/)** - Created an auction bidding system where users can enter their names and bids. The program keeps track of all bidders and announces the winner with the highest bid after all bids are entered. Utilized a dictionary to store bidder information and find the highest bidder.
+- **[Day 10: Simple Calculator](Day04_Simple_Calculator/)** - Built a simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The user inputs two numbers and selects an operation, and the program calculates and displays the result. The calculator supports multiple calculations in succession.
+- **[Day 11: Blackjack Game](Day05_Blackjack_Game/)** - Implemented a text-based Blackjack game where the player can play against a computer. The game follows standard Blackjack rules, allowing the player to hit for additional cards or stand to finalize their hand. The program determines the winner based on the total card values and handles Ace cards' value dynamically.
+- ... (Continue this pattern for each day up to Day 100)
 
-## Project Descriptions
-
-### Day 1: Project Name
-Description of the Day 1 project, including key features and technologies used.
-
-### Day 2: Project Name
-Description of the Day 2 project, including key features and technologies used.
-
-...
-
-### Day 100: Final Project - Project Name
-Description of the final project, summarizing the skills learned and challenges overcome during the 100-day journey.
-
-## Reflections
-
-### Week 1
-Summary of the first week, highlighting major learnings and experiences.
-
-### Week 2
-Summary of the second week, highlighting major learnings and experiences.
-
-...
-
-### Week 14
-Summary of the final week, reflecting on the overall challenge, achievements, and future goals.
 
 ## Getting Started
 
@@ -41,8 +18,7 @@ Each project folder contains the complete source code and, where applicable, ins
 
 ## Connect with Me
 
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
-- Twitter: [Your Twitter Handle](https://twitter.com/yourhandle)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- Web Page: [Your GitHub Profile](http://lalonunez.tech/)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/joseeduardonunez/)
 
 Let's code together! 🚀
