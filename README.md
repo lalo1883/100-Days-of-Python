@@ -4,12 +4,12 @@ Welcome to my 100 Days of Python Projects repository! This repository showcases 
 
 ## Project Directory
 
-- **[Day 7: Word Guessing Game](Day01_Word_Guessing_Game/)** - Implemented a word guessing game where the player has to guess a word letter by letter. The player has 6 lives, and for each incorrect guess, a part of a hangman is drawn. If the player guesses the word within 6 attempts, they win.
+- **[Day 7: Word Guessing Game](100-Days-of-Python
+/100Days/)** - Implemented a word guessing game where the player has to guess a word letter by letter. The player has 6 lives, and for each incorrect guess, a part of a hangman is drawn. If the player guesses the word within 6 attempts, they win.
 - **[Day 8: Caesar Cipher](Day02_Caesar_Cipher/)** - Developed a Caesar Cipher program that encrypts and decrypts messages based on the shift provided by the user. The program takes a text input and shifts the letters in the alphabet based on the given shift value, providing an encoded or decoded message.
 - **[Day 9: Auction Bidding System](Day03_Auction_Bidding_System/)** - Created an auction bidding system where users can enter their names and bids. The program keeps track of all bidders and announces the winner with the highest bid after all bids are entered. Utilized a dictionary to store bidder information and find the highest bidder.
 - **[Day 10: Simple Calculator](Day04_Simple_Calculator/)** - Built a simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The user inputs two numbers and selects an operation, and the program calculates and displays the result. The calculator supports multiple calculations in succession.
 - **[Day 11: Blackjack Game](Day05_Blackjack_Game/)** - Implemented a text-based Blackjack game where the player can play against a computer. The game follows standard Blackjack rules, allowing the player to hit for additional cards or stand to finalize their hand. The program determines the winner based on the total card values and handles Ace cards' value dynamically.
-- ... (Continue this pattern for each day up to Day 100)
 
 
 ## Getting Started
