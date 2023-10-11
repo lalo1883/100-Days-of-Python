@@ -55,6 +55,5 @@ while a:
             play(11)
         elif difficult == 'easy':
             play(21)
-
     else:
         a = False
