@@ -1,17 +1,7 @@
 import random
 
-logo = """
-
-___________                        _________                      __  .__    .__                 
-\__    ___/__.__.______   ____    /   _____/ ____   _____   _____/  |_|  |__ |__| ____    ____   
-  |    | <   |  |\____ \_/ __ \   \_____  \ /  _ \ /     \_/ __ \   __\  |  \|  |/    \  / ___\  
-  |    |  \___  ||  |_> >  ___/   /        (  <_> )  Y Y  \  ___/|  | |   Y  \  |   |  \/ /_/  > 
-  |____|  / ____||   __/ \___  > /_______  /\____/|__|_|  /\___  >__| |___|  /__|___|  /\___  /  
-          \/     |__|        \/          \/             \/     \/          \/        \//_____/   
-
-
-"""
 b = 1
+
 
 def play(mode):
     global b
@@ -21,7 +11,7 @@ def play(mode):
         if h_choice == c_choice:
             print(f'You win in {b} attempts!')
             break
-        elif b == mode -1 and h_choice != c_choice:
+        elif b == mode - 1 and h_choice != c_choice:
             print('You lost!')
             print(f'Answer {c_choice}')
             break
@@ -41,7 +31,6 @@ def get_computer_choice():
 
 
 a = True
-
 while a:
     continue_playing = input('Do you want to play the guessing number game?: |yes| - |No|: ').lower()
     c_choice = get_computer_choice()
