@@ -4,7 +4,7 @@ Welcome to my 100 Days of Python Projects repository! This repository showcases 
 
 ## Connect with Me
 
-- Web Page: [Your GitHub Profile](http://lalonunez.tech/)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/joseeduardonunez/)
+- Web Page: (http://lalonunez.tech/)
+- LinkedIn: (https://www.linkedin.com/in/joseeduardonunez/)
 
 
