@@ -23,9 +23,9 @@ async def total_temp():
     cold_message = f'The avarage temperature is going to be: {temps}. 🥶'
     heat_message = f'The avarage temperature is going to be: {temps}. 🥵'
     if temps >= 15:
-        await bot.sendMessage(chat_id=1401343140, text=heat_message)
+        await bot.sendMessage(chat_id=YOUR_CHAT_ID, text=heat_message)
     elif temps <= 14:
-        await bot.sendMessage(chat_id=1401343140, text=cold_message)
+        await bot.sendMessage(chat_id=YOUR_CHAT_ID, text=cold_message)
 
 hourly_temperatures = []
 temps = 0
