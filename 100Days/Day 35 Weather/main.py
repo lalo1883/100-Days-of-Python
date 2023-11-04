@@ -2,9 +2,9 @@ import requests
 from telegram import Bot
 import asyncio
 
-TOKEN_TELEGRAM = '6589516390:AAF7khf0eRawIm3RcH5XvUQ7CaBNfy7ahDk'
+TOKEN_TELEGRAM = 'YOUR TELEGRAM TOKEN'
 will_rain: bool
-API_key = '4a999272093b88b06ce91db74c4fe5c4'
+API_key = 'YOUR API KEY FOR OPEN WEATHER'
 lat = 28.485447
 lon = -105.782066
 exclude = 'current,minutely,daily'
@@ -23,9 +23,9 @@ async def total_temp():
     cold_message = f'The avarage temperature is going to be: {temps}. 🥶'
     heat_message = f'The avarage temperature is going to be: {temps}. 🥵'
     if temps >= 15:
-        await bot.sendMessage(chat_id=1401343140, text=heat_message)
+        await bot.sendMessage(chat_id=YOUR_CHAT_ID, text=heat_message)
     elif temps <= 14:
-        await bot.sendMessage(chat_id=1401343140, text=cold_message)
+        await bot.sendMessage(chat_id=YOUR_CHAT_ID, text=cold_message)
 
 hourly_temperatures = []
 temps = 0
@@ -45,7 +45,7 @@ final_message = '\n'.join(hourly_temperatures)
 
 async def send_message():
     bot = Bot(token=TOKEN_TELEGRAM)
-    await bot.sendMessage(chat_id=1401343140, text=final_message)
+    await bot.sendMessage(chat_id=YOUR_CHAT_ID, text=final_message)
 
 asyncio.run(send_message())
 asyncio.run(total_temp())
